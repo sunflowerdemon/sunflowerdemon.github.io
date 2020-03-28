@@ -1,3 +1,12 @@
-body,h2,h3{ margin: 0; padding: 0;}
-  body{font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif; }
-  h2{ border-bottom: 1px solid #eee;  padding: 15px; background-color: #fff;}
+body,h2,h3,div,p{ margin: 0; padding: 0;}
+  body{font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif; 
+    background-color: #eeeeee	; font-size: 0.8em;
+    color: #999999;  margin: 0 auto; }
+.title{  text-align: center; padding: 8%; background-color: #222222; color:#ffffff;}
+.title p{ font-size:0.8em;}
+.title h2::first-letter{ font-size:1.8em; color: #008B8B	; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.reading{ padding: 5%;}
+img{ max-width: 100%;}
+
+.foods p{ text-align: center; font-weight: bold;  font-size: 1.5em;}
