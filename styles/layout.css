@@ -1,12 +1,25 @@
-body,h2,h3,div,p{ margin: 0; padding: 0;}
-  body{font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif; 
+body,h2,h3,div,p,ul,li{ margin: 0; padding: 0;}
+
+body{font-family: Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial, sans-serif; 
     background-color: #eeeeee	; font-size: 0.8em;
-    color: #999999;  margin: 0 auto; max-width: 320px; }
-.title{  text-align: center; padding: 8%; background-color: #222222; color:#ffffff;}
-.title p{ font-size:0.8em;}
+    color: #555555;  margin: 0 auto; max-width: 320px; }
+
+.title{  padding: 3%; background-color: #111111; color:#ffffff; text-align: center;}
 .title h2::first-letter{ font-size:1.8em; color: #008B8B	; font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
-.reading{ padding: 5%;}
+.nav{ background-color: #008B8B; color:#ffffff; text-align: left;padding: 5%;  text-align: center;}
+.nav ul{ display: inline-block; width: 100%;}
+.nav ul li{ font-size:0.8em;list-style: none; float: left; width: 20%; }
+.nav a { display: block; color:#ffffff; text-decoration: none; padding: 5%;}
+
+.reading{ padding: 5%; border: 1px solid #ffffff; background-color: #ffffff; 
+          text-align: center; border-bottom: 1px dotted #eeeeee;position: relative;}
+.reading p{ font-weight: bold; line-height: 2em;}
+
 img{ max-width: 100%;}
 
-.foods p{ text-align: center; font-weight: bold;  font-size: 1.5em;}
+.foods p{ text-align: center; font-weight: bold;  font-size: 1.5em; padding:1%;}
+
+
+.footer{ background-color: #333333; padding: 5%;}
+.footer p{ color:#eeeeee; text-align: center;}
